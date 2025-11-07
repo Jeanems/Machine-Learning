@@ -1,76 +1,74 @@
 # Machine-Learning
 Proyecto de Machine Learning para análisis y predicción desarrollado durante el programa de Data Science en TripleTen.
-# 🤖 Customer Churn Prediction – Machine Learning Project
+# 🤖 Machine Learning Project – Clasificación y Modelado Predictivo
 
-Este proyecto forma parte del programa de **Data Science en TripleTen**.  
-El objetivo es predecir la **fuga de clientes (churn)** en el banco **Beta Bank**, utilizando modelos de *Machine Learning* supervisado.
+Proyecto desarrollado como parte del programa de **Data Science en TripleTen**, enfocado en aplicar técnicas de Machine Learning para resolver un problema de clasificación utilizando Python.
 
 ---
 
 ## 🎯 Objetivo del proyecto
 
-Desarrollar un modelo predictivo que permita identificar qué clientes tienen mayor probabilidad de abandonar el banco, con el fin de apoyar estrategias de retención.
+Construir, entrenar y evaluar modelos de clasificación para predecir una variable objetivo a partir de diferentes características del conjunto de datos.
 
 ---
 
 ## 📊 Dataset
 
-El conjunto de datos contiene información como:
+El dataset utilizado contiene información tabular con múltiples variables relevantes para el proceso de predicción.  
+Incluye:
 
-- Género  
-- Edad  
-- Estado civil  
-- Años como cliente  
-- Balance promedio  
-- Número de productos contratados  
-- Actividad bancaria  
-- Indicador de churn (0 = cliente permanece, 1 = cliente abandona)
+- Variables numéricas  
+- Variables categóricas  
+- Etiquetas para clasificación  
+- Datos distribuidos en distintas clases  
 
 ---
 
 ## 🧠 Procesos realizados
 
-### ✅ Análisis exploratorio (EDA)
-- Revisión de valores faltantes  
-- Identificación de patrones  
-- Estadísticas descriptivas  
-- Visualizaciones de relaciones entre variables  
+### Análisis exploratorio (EDA)
+- Revisión inicial del dataset  
+- Distribuciones y características principales  
+- Identificación de relaciones entre variables  
+- Visualización con gráficos descriptivos  
 
-### ✅ Preparación de datos
+### Preparación de datos
+- Limpieza del dataset  
 - Codificación de variables categóricas  
-- Estandarización  
-- División en train/test  
-- Manejo del desbalance mediante oversampling  
+- Escalado de variables numéricas  
+- División en **train** y **test**  
 
-### ✅ Modelos aplicados
+### Modelado
+Se entrenaron varios modelos de Machine Learning para comparar desempeño, incluyendo:
+
 - Regresión Logística  
 - Árbol de Decisión  
 - Random Forest  
 - Gradient Boosting  
 
-Métricas utilizadas:
-- Accuracy  
-- Recall  
-- Precision  
-- **F1-score**  
-- Matriz de confusión  
+### Evaluación
+Los modelos fueron evaluados utilizando:
 
-*(Puedes actualizar el F1-score real de tu notebook si quieres.)*
+- Accuracy  
+- Precision  
+- Recall  
+- F1-score  
+- Matriz de confusión  
 
 ---
 
 ## ✅ Resultados principales
 
-- El modelo optimizado obtuvo un **F1-score sólido**, superando la línea base.  
-- Los métodos basados en árboles mostraron mejor desempeño que la regresión logística.  
-- Se identificaron variables clave relacionadas con la fuga de clientes.
+- Los modelos basados en árboles de decisión mostraron mejor rendimiento general.  
+- Se obtuvo una buena capacidad de clasificación según las métricas analizadas.  
+- La selección del modelo final se basó en su equilibrio entre precisión y recall.
 
 ---
 
 ## 📁 Archivos incluidos
 
-- `Aprendizaje supervisado.ipynb` — Notebook principal  
-- `README.md` — Documentación del proyecto  
+- `Machine learning.ipynb`  
+- `README.md`  
 
 ---
 
@@ -78,4 +76,4 @@ Métricas utilizadas:
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/Jeanems/customer-churn-prediction-ml.git
+   git clone https://github.com/Jeanems/machine-learning-project.git
